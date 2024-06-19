@@ -3,7 +3,7 @@ $nombre = "Angel Uriel";
 $edad = "18";
 $estatura = "1.68";
 
-echo "Me llamo " .$nombre. " tengo " .$edad. " y mido " .$estatura. "<br>";
+echo "Me llamo " .strtoupper($nombre). " tengo " .$edad. " y mido " .$estatura. "<br>";
 echo "<br>";
 
 $x = 10;
@@ -14,6 +14,9 @@ echo "La resta de $x  -   $y  = " .$x-$y. "<br>";
 echo "La multiplicacion de $x  *  $y = " .$x*$y. "<br>";
 echo "La division de  $x / $y  = " .$x/$y. "<br>";
 echo "La exponenciacion de  $x elevado a  $y = " .$x**$y. "<br>";
+echo "<br>";
+
+echo "Se muestra un numero aleatorio del 1 al 10 <br>" . (rand(1, 10));
 ?>
 
 
