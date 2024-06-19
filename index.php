@@ -13,7 +13,12 @@ echo "La suma de $x  +  $y = "  .$x+$y. " <br>";
 echo "La resta de $x  -   $y  = " .$x-$y. "<br>";
 echo "La multiplicacion de $x  *  $y = " .$x*$y. "<br>";
 echo "La division de  $x / $y  = " .$x/$y. "<br>";
-echo "La exponenciacion de  $x elevado a  $y = " .$x**$y. "<br>";
+echo "<br>";
+
+$a = 8;
+$b = 2.5;
+
+echo "La exponenciacion de  $a elevado a  $b = " .(round($x**$b)). "<br>";
 echo "<br>";
 
 echo "Se muestra un numero aleatorio del 1 al 10 <br>" . (rand(1, 10));
